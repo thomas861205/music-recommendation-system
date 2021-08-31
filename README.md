@@ -8,11 +8,13 @@ Imagine different songs are different points in a space, our goal is to determin
 
 Q: How to turn a song into a point?
 
-A: Calculate a song's spetrogram (an image) first. Then we use CNN + autoencoder; the intermediate output of the network, a vector, is essentially a point in an high-dimensional space.
+A: Calculate a song's [spectrogram](https://en.wikipedia.org/wiki/Spectrogram) (an image) first. Then we use CNN + autoencoder; the intermediate output of the network, a vector, is essentially a point in an high-dimensional space.
 
 Q: How to segment the area of songs user like?
 
-A: We adopt a technique that uses in graph segmentation task. This technique uses experts's (your!) feedback to refine the boundary of the space, and this is where 1-bit feedback (like or dislike) comes into play.
+A: We adopt a [technique](https://link.springer.com/article/10.1007/s00138-018-0923-1) that uses in graph segmentation task. This technique uses experts's (your!) feedback to refine the boundary of the space, and this is where 1-bit feedback (like or dislike) comes into play.
+
+![](segmentation.png)
 
 
 ## 10 music genres -- songs downloaded using Spotify api
