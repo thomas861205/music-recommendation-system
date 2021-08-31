@@ -23,6 +23,6 @@ We use Bigroom, Blues, Classical, Country, Disco, Dubstep, Hiphop, Lofi, Metal, 
 
 ## Result
 
-Works pretty good on Bigroom and Dubstep, both of them are electronic dance music sub-genres.
+The accuracy is pretty good on Bigroom and Dubstep, both of them are electronic dance music sub-genres.
 
 ![](result.png)
