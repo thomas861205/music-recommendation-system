@@ -1,6 +1,8 @@
 # 1-bit Feedback Music Recommendation System
 
+<br />
 Customize a playlist based on user's feedback on a subset of per-selected songs.
+<br />
 
 ## Computer vision-inspired, deep learning-powered
 
@@ -12,7 +14,7 @@ A: Calculate a song's [spectrogram](https://en.wikipedia.org/wiki/Spectrogram) (
 
 Q: How to segment the area of songs user like?
 
-A: We adopt a [technique](https://link.springer.com/article/10.1007/s00138-018-0923-1) that uses in graph segmentation task. This technique uses experts's (your!) feedback to refine the boundary of the space, and this is where 1-bit feedback (like or dislike) comes into play.
+A: We adopt a [technique](https://link.springer.com/article/10.1007/s00138-018-0923-1) that is used in graph segmentation tasks. This technique incorporates experts's (your!) feedback to refine the boundary of the space, and this is where 1-bit feedback (like or dislike) comes into play.
 
 ![](segmentation.png)
 
@@ -23,6 +25,6 @@ We use Bigroom, Blues, Classical, Country, Disco, Dubstep, Hiphop, Lofi, Metal, 
 
 ## Result
 
-The accuracy is pretty good on Bigroom and Dubstep, both of them are electronic dance music sub-genres.
+The recommendation accuracy is above 70% on Bigroom and Dubstep, both of them are electronic dance music sub-genres.
 
 ![](result.png)
